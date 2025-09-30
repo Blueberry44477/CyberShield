@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="ua">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CyberShield</title>
+  <meta name="description" content="CyberShield — рішення з кібербезпеки для малого та середнього бізнесу: аудит, тестування проникнення, захист мереж та хмари." />
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+  <header role="banner">
+    <div class="nav">
+
+      <div class="brand">
+        <!-- <svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="g" x1="0" x2="1">
+              <stop offset="0" stop-color="#0b6cff"/>
+              <stop offset="1" stop-color="#00b894"/>
+            </linearGradient>
+          </defs>
+          <path d="M32 6 L10 14 v12c0 15 10 28 22 32 12-4 22-17 22-32V14L32 6z" fill="url(#g)" />
+          <rect x="26" y="24" width="12" height="10" rx="2" fill="#fff" />
+          <circle cx="32" cy="30" r="1.4" fill="url(#g)" />
+        </svg> -->
+        <img src="./images/logo.svg" style="width: 50px; height: 50px;" alt="logo">
+        
+        <div>
+          <div style="font-weight:800">CyberShield</div>
+          <div style="font-size:12px;color:rgba(255,255,255,0.8)">Захищаємо ваші дані, як свої</div>
+        </div>
+      </div>
+
+      <nav aria-label="Головна навігація">
+        <ul>
+          <li><a href="#home">Головна</a></li>
+          <li><a href="#about">Про нас</a></li>
+          <li><a href="#services">Послуги</a></li>
+          <li><a href="#team">Команда</a></li>
+          <li><a href="#contact">Контакти</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero" aria-label="Головна секція">
+      <h1><span class="highlight_big">CyberShield</span> <br>надійний кіберзахист вашого бізнесу</h1>
+      <div class="horizontal_align">
+        <p>Захищаємо <span class="highlight">ваші</span> дані, як <span class="highlight">свої</span></p>
+        <a class="contact" href="#contact">Let's Talk ;)</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>Про нас</h2>
+      <p class="muted">Місія CyberShield — мінімізувати ризики для бізнесу шляхом впровадження практичних і керованих рішень з інформаційної безпеки. Ми орієнтовані на результат і зрозумілі рекомендації.</p>
+      <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:12px">
+        <div class="card" style="flex:1 1 300px">
+          <strong>Наш підхід</strong>
+          <p class="muted">Аудит → Пріоритизація → Впровадження захисних механізмів → Моніторинг.</p>
+        </div>
+        <div class="card" style="flex:1 1 300px">
+          <strong>Цінності</strong>
+          <p class="muted">Довіра. Прозорість. Професіоналізм.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2>Послуги</h2>
+      <ul class="services">
+        <li class="card"><strong>Аудит безпеки</strong> — аналіз політик, конфігурацій і захищеності інфраструктури.</li>
+        <li class="card"><strong>Penetration testing</strong> — зовнішні та внутрішні тести на проникнення з детальним звітом.</li>
+        <li class="card"><strong>Захист мереж</strong> — налаштування брандмауерів, сегментація мережі, VPN.</li>
+        <li class="card"><strong>Захист хмари</strong> — налаштування прав доступу, контроль конфігурацій у AWS/Azure/GCP.</li>
+        <li class="card"><strong>24/7 SOC (консультативно)</strong> — послуги моніторингу і реагування на інциденти.</li>
+      </ul>
+    </section>
+
+    <section id="team">
+      <h2>Команда</h2>
+      <div class="team">
+        <div class="person card">
+          <div class="avatar">АК</div>
+          <div>
+            <div style="font-weight:700">Ангеліна Кузьміч<br>- CEO</div>
+            <div class="muted">7 років в інформаційній безпеці, стратегічний розвиток</div>
+          </div>
+        </div>
+
+        <div class="person card">
+          <div class="avatar">СВ</div>
+          <div>
+            <div style="font-weight:700">Скубач Віталій<br>- CTO</div>
+            <div class="muted">Мережеві архітектури, хмарні рішення</div>
+          </div>
+        </div>
+
+        <div class="person card">
+          <div class="avatar">ДС</div>
+          <div>
+            <div style="font-weight:700">Максим Кирилюк<br>- Lead Security Analyst</div>
+            <div class="muted">Пентести, аналіз інцидентів</div>
+          </div>
+        </div>
+        <div class="person card">
+          <div class="avatar">АЧ</div>
+          <div>
+            <div style="font-weight:700">Кокосік :) <br>- Project Manager</div>
+            <div class="muted">Управління проєктами, технічна комунікація</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Контакти</h2>
+      <div style="display:grid;grid-template-columns:1fr 320px;gap:16px">
+        <div>
+          <p class="muted">Адреса: вул. Технологій, 15, Київ<br/>Email: <a href="mailto:info@cybershield.com">info@cybershield.com</a><br/>Телефон: +38 (044) 555-12-34</p>
+          <h3>Форма зворотного зв'язку</h3>
+          <form id="contactForm" onsubmit="return submitContactForm(event)">
+            <input type="text" name="name" id="c_name" placeholder="Ім'я" required />
+            <input type="email" name="email" id="c_email" placeholder="Email" required />
+            <textarea name="message" id="c_msg" placeholder="Повідомлення" rows="5" required></textarea>
+            <button type="submit" id="contactSubmit">Надіслати</button>
+          </form>
+        </div>
+        <div class="card">
+          <strong>Типовий кейс:</strong>
+          <p class="muted">Компанія M мала підозри на фішингові атаки. Ми провели аудит, впровадили багатофакторну автентифікацію та політику блокування шкодочинних доменів. Витрати на інциденти зменшились на 85%.</p>
+          <strong>Швидка перевірка ризиків</strong>
+          <p class="muted">Базова оцінка (до 48 годин) — безкоштовна для нових клієнтів.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+      <div>© CyberShield — 2025. Всі права захищено.</div>
+      <div class="muted">Політика конфіденційності • Умови надання послуг</div>
+    </div>
+  </footer>
+
+</body>
+</html>
