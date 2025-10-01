@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ua">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CyberShield</title>
+  <meta name="description" content="CyberShield — рішення з кібербезпеки для малого та середнього бізнесу: аудит, тестування проникнення, захист мереж та хмари." />
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <header role="banner">
+        <div class="nav">
+          <div class="brand">
+            <img src="../images/logo.svg" style="width: 50px; height: 50px;" alt="logo">
+            
+            <div>
+              <div style="font-weight:800">CyberShield</div>
+              <div style="font-size:12px;color:rgba(255,255,255,0.8)">Захищаємо ваші дані, як свої</div>
+            </div>
+          </div>
+    
+          <nav aria-label="Головна навігація">
+            <ul>
+              <li><a href="../index.html">Головна</a></li>
+              <li><a href="./about_us.html">Про нас</a></li>
+              <li><a href="./services.html">Послуги</a></li>
+              <li><a href="./team.html">Команда</a></li>
+              <li><a href="./contact.html">Контакти</a></li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="contact">
+            <h2>Контакти</h2>
+            <div style="display:grid;grid-template-columns:1fr 320px;gap:16px">
+              <div>
+                <p class="muted">Адреса: вул. Технологій, 15, Київ<br/>Email: <a href="mailto:info@cybershield.com">info@cybershield.com</a><br/>Телефон: +38 (044) 555-12-34</p>
+                <h3>Форма зворотного зв'язку</h3>
+                <form id="contactForm" onsubmit="return submitContactForm(event)">
+                  <input type="text" name="name" id="c_name" placeholder="Ім'я" required />
+                  <input type="email" name="email" id="c_email" placeholder="Email" required />
+                  <textarea name="message" id="c_msg" placeholder="Повідомлення" rows="5" required></textarea>
+                  <button type="submit" id="contactSubmit">Надіслати</button>
+                </form>
+              </div>
+              <div class="card">
+                <strong>Типовий кейс:</strong>
+                <p class="muted">Компанія M мала підозри на фішингові атаки. Ми провели аудит, впровадили багатофакторну автентифікацію та політику блокування шкодочинних доменів. Витрати на інциденти зменшились на 85%.</p>
+                <strong>Швидка перевірка ризиків</strong>
+                <p class="muted">Базова оцінка (до 48 годин) — безкоштовна для нових клієнтів.</p>
+              </div>
+            </div>
+          </section>  
+    </main>
+</body>
